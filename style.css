@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  font-size: 62.5%;
+  
+  --text-nav-color: #C4C4CC;
+  --text-main-color: #E1E1E6;
+  --text-focus-button-color: #FFFFFF;
+}
+
+.background-image1 {
+  background-image: url('./assets/mountains-universe-1.svg');
+  background-repeat: no-repeat;
+  background-size: 100vw;   
+}
+
+.background-image2 {
+  background-image: url('./assets/mountains-universe-2.svg');
+  background-repeat: no-repeat;
+  background-size: 100vw;   
+}
+
+.background-image3 {
+  background-image: url('./assets/mountains-universe-3.svg');
+  background-repeat: no-repeat;
+  background-size: 100vw;   
+}
+
+.nav-selected {
+  color: var(--text-focus-button-color);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+ 
+
+  font-family: 'Roboto';
+  font-size: 1.8rem;
+
+  color: var(--text-main-color);
+}
+
+button {
+  background-color: transparent;
+  appearance: none;
+
+  color: var(--text-focus-button-color);
+
+  border: 2px solid #FFFFFF;
+  border-radius: 5px;
+
+  padding: 1.2rem 3.2rem;
+  margin-top: 3.6rem;
+
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  font-family: 'Roboto';
+
+  transition: all .5s;
+}
+
+.clicked {
+  background-color: var(--text-focus-button-color);
+  appearance: none;
+
+  color: #02799D;;
+
+  border: 2px solid #FFFFFF;
+  border-radius: 5px;
+
+  padding: 1.2rem 3.2rem;
+  margin-top: 3.6rem;
+
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  font-family: 'Roboto';
+}
+
+button:active{
+  background-color: var(--text-focus-button-color);
+  appearance: none;
+
+  color: #02799D;;
+
+  border: 2px solid #FFFFFF;
+  border-radius: 5px;
+
+  padding: 1.2rem 3.2rem;
+  margin-top: 3.6rem;
+
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  font-family: 'Roboto';
+}
+
+button:hover {
+  font-size: 1.5rem;
+  border: 3px solid #103D4B;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+body header {
+  display: flex;
+  gap: 4.4rem;
+  align-items: center;
+  justify-items: center;
+
+  margin: 4rem 7.2rem ;
+}
+
+body header img:hover {
+  filter: blur(0.5px); 
+}
+
+body header nav {
+  display: flex;
+  gap: 5.4rem;
+}
+
+body header nav a {
+  font-size: 2.2rem;
+  font-weight: 400;
+  line-height: 2.2rem;
+  color: var(--text-nav-color);
+  text-decoration: none;
+}
+
+body header nav a:hover {
+  color: #99999e;
+}
+
+
+
+body main .app-screen-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+body main .app-screen-2-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 10.2rem;
+}
+
+body main .app h2 {
+  color: var(--text-main-color);
+  
+  font-size: 4.8rem;
+  font-weight: 700;
+  line-height: 125%;
+}
+
+body main .app p {
+  line-height: 160%;
+  width: 64.8rem;
+  margin-top: 1.6rem;
+
+}
+
+/*--------------Screen 1---------------*/
+.screen1-h1 {
+  margin-top: 17.2rem;
+
+  color: var(--text-main-color);
+  
+  font-size: 4.8rem;
+  font-weight: 700;
+  line-height: 125%;
+}
+/*--------------Screen 2---------------*/
+.screen2-3-h2 {
+  margin-top: 6.3rem;
+  
+}
+/*--------------Screen 3---------------*/
